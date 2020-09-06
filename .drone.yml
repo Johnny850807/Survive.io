@@ -10,4 +10,5 @@ steps:
   - echo "Successfully Unit Tested"
   when:
     event:
+    - push
     - pull_request
