@@ -8,7 +8,4 @@ steps:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - mvn test -B
   - echo "Successfully Unit Tested"
-  when:
-    event:
-    - push
-    - pull_request
+
