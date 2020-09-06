@@ -10,6 +10,5 @@ steps:
   when:
     branch:
     - master
-    - dev
     event:
     - pull_request
